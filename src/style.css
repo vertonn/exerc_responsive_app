@@ -1,0 +1,20 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 56px);
+}
+
+/* from 0 to 450px */
+@media screen and (max-width: 450px) {
+  html,
+  body,
+  #root {
+    height: auto;
+  }
+}
