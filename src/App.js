@@ -1,4 +1,4 @@
-import MainContent from "./components/Main";
+import MainContent from "./components/MainContent";
 import SimpleNavBar from "./components/SimpleNavBar";
 import "./style.css";
 
